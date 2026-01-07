@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using Adinmo;
 using UnityEngine;
 
 public class CoinGranter : MonoBehaviour
@@ -7,6 +6,17 @@ public class CoinGranter : MonoBehaviour
     [Header("Settings")]
     public string coinPlayerPrefKey = "PlayerCoins"; // Must match the other script!
     public int amountToGrant = 5;
+
+    private void OnEnable()
+    {
+        AdinmoManager.OnGiveReward += AddCoins;
+    }
+
+    private void OnDisable()
+    {
+        AdinmoManager.OnGiveReward -= AddCoins;
+    }
+
 
     /// <summary>
     /// Call this from a Button click to add the default amount

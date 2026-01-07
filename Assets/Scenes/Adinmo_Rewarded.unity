@@ -439,6 +439,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3300000, guid: e5aba26459e33ad4a9d8b881eb1d36e9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300002, guid: b2bb65a598b22cd47b3aeb7068b29a80, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1374,6 +1378,10 @@ PrefabInstance:
     - target: {fileID: 111656, guid: a27514f1a4e3041f98d862107e48fdb7, type: 3}
       propertyPath: m_Name
       value: PinnedWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 405712, guid: a27514f1a4e3041f98d862107e48fdb7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.42
       objectReference: {fileID: 0}
     - target: {fileID: 405712, guid: a27514f1a4e3041f98d862107e48fdb7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2673,7 +2681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f75adf5ee0d20ac4ca17dc460b8490eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_placementKey: 
+  m_placementKey: pk_4f71d05df9b149cf9c322119c078f710
   m_hideUntilReady: 0
   m_camera: {fileID: 0}
   m_disablePlaceholder: 0
@@ -2765,6 +2773,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 296995809}
     m_Modifications:
+    - target: {fileID: 5757062310278626229, guid: 9468373ae9e7e264c9799464fc02cc41, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300002, guid: b2bb65a598b22cd47b3aeb7068b29a80, type: 3}
+    - target: {fileID: 7249323885559158574, guid: 9468373ae9e7e264c9799464fc02cc41, type: 3}
+      propertyPath: m_placementKey
+      value: pk_4f71d05df9b149cf9c322119c078f710
+      objectReference: {fileID: 0}
     - target: {fileID: 8286969190717140650, guid: 9468373ae9e7e264c9799464fc02cc41, type: 3}
       propertyPath: m_Name
       value: AdinmoQuadSquare
@@ -3621,8 +3637,8 @@ Transform:
   m_GameObject: {fileID: 1331711311}
   serializedVersion: 2
   m_LocalRotation: {x: -0.16221924, y: -0.16221924, z: 0.68824774, w: 0.68824774}
-  m_LocalPosition: {x: 0.2630829, y: 3.3595254, z: -0.83171684}
-  m_LocalScale: {x: 0.15033999, y: 1.9800656, z: 0.24713}
+  m_LocalPosition: {x: 0.2630829, y: 3.351, z: -0.83171684}
+  m_LocalScale: {x: 0.15033999, y: 3.3, z: 0.24713}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 296995809}
@@ -3987,8 +4003,8 @@ Transform:
   m_GameObject: {fileID: 1499798893}
   serializedVersion: 2
   m_LocalRotation: {x: -0.16221924, y: -0.16221924, z: 0.68824774, w: 0.68824774}
-  m_LocalPosition: {x: 0.28891686, y: 1.4684753, z: -0.819283}
-  m_LocalScale: {x: 0.15033999, y: 1.9800656, z: 0.24713}
+  m_LocalPosition: {x: 0.28891686, y: 1.525, z: -0.819283}
+  m_LocalScale: {x: 0.15033999, y: 3.3, z: 0.24713}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 296995809}
@@ -4388,7 +4404,7 @@ Transform:
   m_GameObject: {fileID: 1592920339}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.2294165, z: -0, w: 0.97332835}
-  m_LocalPosition: {x: -0.57, y: 2.414, z: -1.248}
+  m_LocalPosition: {x: -1.134, y: 2.414, z: -1.527}
   m_LocalScale: {x: 0.15033999, y: 1.9800656, z: 0.24713}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5021,7 +5037,7 @@ Transform:
   m_GameObject: {fileID: 1734064881}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.2294165, z: -0, w: 0.97332835}
-  m_LocalPosition: {x: 1.122, y: 2.414, z: -0.403}
+  m_LocalPosition: {x: 1.69, y: 2.414, z: -0.125}
   m_LocalScale: {x: 0.15033999, y: 1.9800656, z: 0.24713}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5640,6 +5656,10 @@ PrefabInstance:
     - target: {fileID: 4465193875626926, guid: c302fe662f86f1544928c52070704516, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114856978042605658, guid: c302fe662f86f1544928c52070704516, type: 3}
+      propertyPath: m_gameKey
+      value: gk_938bcd0006004877a5b0a2f61a95d999
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
