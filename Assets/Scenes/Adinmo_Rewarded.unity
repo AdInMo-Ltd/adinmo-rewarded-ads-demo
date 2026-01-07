@@ -521,7 +521,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: e5aba26459e33ad4a9d8b881eb1d36e9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7c5d944c808114ef1a3654b6bd1edc18, type: 2}
+      objectReference: {fileID: 2100000, guid: 5d84bbe61f3fae34582a3ace2ca0e038, type: 2}
     - target: {fileID: 3300000, guid: e5aba26459e33ad4a9d8b881eb1d36e9, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2892,7 +2892,7 @@ PrefabInstance:
     - target: {fileID: 7494489931769876351, guid: 9468373ae9e7e264c9799464fc02cc41, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4f03d6684ac79a64ea0cd6fbae2a9fbe, type: 2}
+      objectReference: {fileID: 2100000, guid: 7c5d944c808114ef1a3654b6bd1edc18, type: 2}
     - target: {fileID: 8286969190717140650, guid: 9468373ae9e7e264c9799464fc02cc41, type: 3}
       propertyPath: m_Name
       value: AdinmoQuadSquare
