@@ -104,7 +104,7 @@ Material:
     - _foam_depth: 10.45
     - _foam_distance: 0.7
     - _foam_power: 1
-    - _foam_scale: 8.79
+    - _foam_scale: 5
     - _foam_speed: 0.01
     - _foam_strength: 0
     - _fresnel_power: 1.12
@@ -118,7 +118,7 @@ Material:
     - _waveColor_speed: 4
     - _wave_scale: 16
     - _wave_speed: 2
-    - _wave_strength: 2.5
+    - _wave_strength: 7
     - _wave_tile: 1.7
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
