@@ -21,18 +21,17 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Colors
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: 4800000, guid: f34e27b65b4914db0afab6459c134176, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _EMISSION
-  m_InvalidKeywords: []
-  m_LightmapFlags: 1
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -109,10 +108,17 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+    - _EmissionStrength: 3.7
     - _EnvironmentReflections: 1
+    - _FalloffCenter: 0.15
+    - _FalloffPower: 0.7
+    - _FalloffSoftness: 0.9
+    - _FalloffThreshold: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.1
     - _GlossyReflections: 1
+    - _MaskBlackVal: 0.2
+    - _MaskWhiteVal: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -131,6 +137,10 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0.3962264, g: 0.10011689, b: 0.08036668, a: 1}
+    - _EmissionColor: {r: 0.10731133, g: 0.0349268, b: 0.0349268, a: 1}
+    - _LitColor: {r: 1, g: 0.96064025, b: 0.7688679, a: 1}
+    - _LitTint: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0.19744574, g: 0.19744574, b: 0.4811321, a: 1}
+    - _ShadowTint: {r: 0.091313645, g: 0.091313645, b: 0.7169812, a: 0.28235295}
     - _SpecColor: {r: 0.1397059, g: 0.1397059, b: 0.1397059, a: 1}
   m_BuildTextureStacks: []
