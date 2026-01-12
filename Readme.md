@@ -143,7 +143,8 @@ In the **Adinmo\_Rewarded** demo scene:
 
 You are free to tailor this logic to match your game design, whether that involves currency, power-ups, consumables, or progression boosts.
 
-Result:
+**Result:**
+
 ![Alt text](images/result_1.png)
 ![Alt text](images/result_2.png)
 ---
