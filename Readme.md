@@ -25,7 +25,7 @@ Before you begin, ensure the following:
 1. Log in to the **Adinmo Portal**.
 
 2. Create a **new placement** specifically configured for **Rewarded Ads**.  
-   ![][image1]
+
 
 3. Take note of the following details:
 
@@ -36,7 +36,7 @@ Before you begin, ensure the following:
    * **Placement Name**
 
 These identifiers are required to correctly configure the placement in your game.
-
+![Alt text](images/create_placement.png)
 ---
 
 ## **Step 2: Share Placement Details with Adinmo**
@@ -50,7 +50,7 @@ Send the following information to your **Adinmo point of contact**:
 * Placement Name
 
 This step is required to ensure the rewarded placement is enabled and configured correctly on Adinmo’s backend.
-
+![Alt text](images/placement_share.png)
 ---
 
 ## **Step 3: Create the Placement in Your Game**
@@ -61,10 +61,10 @@ This step is required to ensure the rewarded placement is enabled and configured
 
    * The **Mesh** property is set to **Quad16x9**.
 
-![][image2]
+![Alt text](images/editor_full_view.png)
 
 3. Assign the **Placement Key** (obtained from the portal) to this placement.  
-   ![][image3]
+![Alt text](images/editor_focus_view.png)
 
 At this stage, the rewarded placement should be visually and logically present in your scene.
 
@@ -89,7 +89,7 @@ Rewarded Ads rely on event-based callbacks to notify your game when a reward sho
 
 * The event passes an **integer parameter**, representing the reward amount.
 
-![][image4]
+![Alt text](images/code_subscriber.png)
 
 **Note:**  
  For the current test implementation, the reward value is returned as an integer without requiring reward configuration on the portal. This gives developers full flexibility to define how the reward is interpreted and applied within the game. Portal-side reward configuration is not yet available.
@@ -139,10 +139,13 @@ In the **Adinmo\_Rewarded** demo scene:
 * The `AddCoins` method adds coins to the player’s gameplay state **Coins** by adding the specified count received from the ad.   
 * Added below is the example of setup the handler of adinmo reward event.
 
-![][image5]
+![Alt text](images/code_snippet_handler.png)
 
 You are free to tailor this logic to match your game design, whether that involves currency, power-ups, consumables, or progression boosts.
 
+Result:
+![Alt text](images/result_1.png)
+![Alt text](images/result_2.png)
 ---
 
 ## **Summary**
