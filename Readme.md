@@ -10,7 +10,7 @@ This guide explains how to integrate and use **Rewarded Ads** using the Adinmo S
 
 Before you begin, ensure the following:
 
-* You are using **Adinmo SDK v3.316 (v3)**.
+* You are using **[Adinmo SDK v3.316 (v3)](https://github.com/AdInMo-Ltd/adinmo-rewarded-ads-demo/releases/tag/0.0.1)**.
 
 * You have access to the **Adinmo Portal**.
 
