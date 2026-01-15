@@ -44,10 +44,9 @@ These identifiers are required to correctly configure the placement in your game
 Send the following information to your **Adinmo point of contact**:
 
 * Game Key
-
 * Placement Key
-
 * Placement Name
+* Preview and Result Images (each of size 480 x 270) for your ads and the amount of reward the ad should earn for the player.
 
 This step is required to ensure the rewarded placement is enabled and configured correctly on Adinmo’s backend.
 ![Alt text](images/placement_share.png)
